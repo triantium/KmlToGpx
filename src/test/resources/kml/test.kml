@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="3.2" encoding="utf-8" ?> -->
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="KWF_RP_Vinvalid" id="KWF_RP_Vinvalid">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="WGS_Breite" type="float"></SimpleField>
+	<SimpleField name="WGS_Laenge" type="float"></SimpleField>
+	<SimpleField name="Schild" type="string"></SimpleField>
+	<SimpleField name="Urheber" type="string"></SimpleField>
+	<SimpleField name="Bundesland" type="string"></SimpleField>
+</Schema>
+<Folder>
+  <name>my very own Folder</name>
+  <Placemark>
+  <name>EI-232323</name>
+	<description>my comment</description>
+	<ExtendedData><SchemaData schemaUrl="#KWF_RP_Vinvalid">
+		<SimpleData name="WGS_Breite">22.223233</SimpleData>
+		<SimpleData name="WGS_Laenge">33.233323</SimpleData>
+		<SimpleData name="Schild">unbekannt</SimpleData>
+		<SimpleData name="Urheber">Bayerische Staatsforsten, AöR</SimpleData>
+		<SimpleData name="Bundesland">Bayern</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>33.233322323222223,22.223233323222223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ND-2323</name>
+	<description>my comment</description>
+	<ExtendedData><SchemaData schemaUrl="#KWF_RP_Vinvalid">
+		<SimpleData name="WGS_Breite">22.322322</SimpleData>
+		<SimpleData name="WGS_Laenge">33.333332</SimpleData>
+		<SimpleData name="Schild">INVALID</SimpleData>
+		<SimpleData name="Urheber">INVALID</SimpleData>
+		<SimpleData name="Bundesland">INVALID</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>33.333332222222223,22.322333333222223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DON-3233</name>
+	<description>my comment</description>
+	<ExtendedData><SchemaData schemaUrl="#KWF_RP_Vinvalid">
+		<SimpleData name="WGS_Breite">22.222322</SimpleData>
+		<SimpleData name="WGS_Laenge">32.322223</SimpleData>
+		<SimpleData name="Schild">INVALID</SimpleData>
+		<SimpleData name="Urheber">INVALID</SimpleData>
+		<SimpleData name="Bundesland">INVALID</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>32.322223323222232,22.222322232222223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ND-3222</name>
+	<description>my comment</description>
+	<ExtendedData><SchemaData schemaUrl="#KWF_RP_Vinvalid">
+		<SimpleData name="WGS_Breite">22.333323</SimpleData>
+		<SimpleData name="WGS_Laenge">33.333223</SimpleData>
+		<SimpleData name="Schild">INVALID</SimpleData>
+		<SimpleData name="Urheber">INVALID</SimpleData>
+		<SimpleData name="Bundesland">INVALID</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>33.333223332222222,22.333322322222233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>REG-3222</name>
+	<description>my comment</description>
+	<ExtendedData><SchemaData schemaUrl="#KWF_RP_Vinvalid">
+		<SimpleData name="WGS_Breite">22.222233</SimpleData>
+		<SimpleData name="WGS_Laenge">33.223233</SimpleData>
+		<SimpleData name="Schild">unbekannt</SimpleData>
+		<SimpleData name="Urheber">INVALID</SimpleData>
+		<SimpleData name="Bundesland">INVALID</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>33.223232222222222,22.222232233222232</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WU/Z/233</name>
+	<description>my comment</description>
+	<ExtendedData><SchemaData schemaUrl="#KWF_RP_Vinvalid">
+		<SimpleData name="WGS_Breite">22.322232</SimpleData>
+		<SimpleData name="WGS_Laenge">3.223333</SimpleData>
+		<SimpleData name="Schild">ja</SimpleData>
+		<SimpleData name="Urheber">INVALID</SimpleData>
+		<SimpleData name="Bundesland">INVALID</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>32.223333223232222,22.322233233232232</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BL/L/233</name>
+	<description>my comment</description>
+	<ExtendedData><SchemaData schemaUrl="#KWF_RP_Vinvalid">
+		<SimpleData name="WGS_Breite">22.323332</SimpleData>
+		<SimpleData name="WGS_Laenge">2.332233</SimpleData>
+		<SimpleData name="Schild">INVALID</SimpleData>
+		<SimpleData name="Urheber">INVALID</SimpleData>
+		<SimpleData name="Bundesland">INVALID</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>32.332233333332333,22.323332222333223</coordinates></Point>
+  </Placemark>
+ </Folder>
+</Document>
+</kml>
